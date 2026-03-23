@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="MauiAppMinhasCompras" mvid="4777d203b6e54e2fb34307a0f8d7b5c4">
+<api type="debug" assembly-name="MauiAppMinhasCompras" mvid="67458e3200064db49899583a74d41e22">
   <java-to-managed>
     <entry java-name="crc640cf984b299819cac/MainActivity" managed-name="MauiAppMinhasCompras.MainActivity, MauiAppMinhasCompras" managed-type-token-id="33554441" />
     <entry java-name="crc640cf984b299819cac/MainApplication" managed-name="MauiAppMinhasCompras.MainApplication, MauiAppMinhasCompras" managed-type-token-id="33554442" />

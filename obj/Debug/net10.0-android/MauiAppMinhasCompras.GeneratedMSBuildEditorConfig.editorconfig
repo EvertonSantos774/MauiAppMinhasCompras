@@ -105,3 +105,13 @@ build_metadata.AdditionalFiles.Inflator = Runtime
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/Usuario/source/repos/MauiAppMinhasCompras/MauiAppMinhasCompras/Views/Relatorio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppMinhasCompras.Views.Relatorio.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Relatorio.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Relatorio.xaml
+build_metadata.AdditionalFiles.Inflator = Runtime
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 

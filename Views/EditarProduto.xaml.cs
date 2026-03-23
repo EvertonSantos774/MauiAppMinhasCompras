@@ -15,12 +15,23 @@ public partial class EditarProduto : ContentPage
         {
             Produto produto_anexado = BindingContext as Produto;
 
+            DateTime dataConvertida;
+
+            DateTime.TryParseExact(
+                txt_data.Text,
+                "dd/MM/yyyy",
+                null,
+                System.Globalization.DateTimeStyles.None,
+                out dataConvertida
+            );
+
             Produto p = new Produto
             {
                 Id = produto_anexado.Id,
                 Descricao = txt_descricao.Text,
                 Quantidade = Convert.ToDouble(txt_quantidade.Text),
-                Preco = Convert.ToDouble(txt_preco.Text)
+                Preco = Convert.ToDouble(txt_preco.Text),
+                 Data = dataConvertida
             };
 
             await App.Db.Update(p);
